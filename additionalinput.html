@@ -1,0 +1,36 @@
+<!-- 
+    Additional Input attributes
+    Min, Max, multiple and placeholder
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <form action="">
+        <label for="">UserName</label> <br> 
+        <input type="text"
+         placeholder="Username" 
+         minlength="5" 
+         maxlength="10"> 
+         <br>
+         <label for="">age</label><br>
+         <input type="number" 
+         placeholder="age" 
+         min="20" 
+         max="100"
+         size="50" 
+         pattern="[2-6]{2}-[0-9]{2}-[0-8]{2}"
+         ><br>
+       
+         <label for="">Password</label> <br>
+        <input type="password" size="30" required> <br>
+        <label for="">Email</label><br>
+        <input type="email" value="Email" disabled><br>
+        <input type="submit">
+        </form>
+ </body>
+ </html>
